@@ -7,8 +7,8 @@ Download the dependencies using `go mod download`.
 
 ```bash
 cd $GOPATH/src/github.com # Create this directory if it doesn't exist
-git clone git@github.com:<YOUR_FORK>/oauth2_proxy pusher/oauth2_proxy
-cd pusher/oauth2_proxy
+git clone git@github.com:<YOUR_FORK>/oauth2_proxy pusher/oauth2_proxy/v5
+cd pusher/oauth2_proxy/v5
 ./configure # Setup your environment variables
 go mod download
 ```

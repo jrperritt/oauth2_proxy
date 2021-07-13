@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/pusher/oauth2_proxy/pkg/logger"
+	"github.com/pusher/oauth2_proxy/v5/pkg/logger"
 )
 
 // UserMap holds information from the authenticated emails file

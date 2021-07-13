@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/url"
 
-	"github.com/pusher/oauth2_proxy/pkg/logger"
+	"github.com/pusher/oauth2_proxy/v5/pkg/logger"
 )
 
 // ProviderData contains information required to configure all implementations

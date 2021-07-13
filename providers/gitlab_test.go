@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/pusher/oauth2_proxy/pkg/apis/sessions"
+	"github.com/pusher/oauth2_proxy/v5/pkg/apis/sessions"
 	"github.com/stretchr/testify/assert"
 )
 

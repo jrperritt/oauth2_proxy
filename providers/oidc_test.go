@@ -20,7 +20,7 @@ import (
 	"github.com/dgrijalva/jwt-go"
 	"golang.org/x/oauth2"
 
-	"github.com/pusher/oauth2_proxy/pkg/apis/sessions"
+	"github.com/pusher/oauth2_proxy/v5/pkg/apis/sessions"
 )
 
 const accessToken = "access_token"

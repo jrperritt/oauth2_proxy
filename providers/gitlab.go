@@ -10,7 +10,7 @@ import (
 	"time"
 
 	oidc "github.com/coreos/go-oidc"
-	"github.com/pusher/oauth2_proxy/pkg/apis/sessions"
+	"github.com/pusher/oauth2_proxy/v5/pkg/apis/sessions"
 	"golang.org/x/oauth2"
 )
 

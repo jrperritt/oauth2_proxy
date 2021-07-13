@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/bmizerany/assert"
-	"github.com/pusher/oauth2_proxy/pkg/apis/sessions"
+	"github.com/pusher/oauth2_proxy/v5/pkg/apis/sessions"
 )
 
 func testKeycloakProvider(hostname, group string) *KeycloakProvider {

@@ -1,8 +1,8 @@
 ![OAuth2 Proxy](/docs/logos/OAuth2_Proxy_horizontal.svg)
 
-[![Build Status](https://secure.travis-ci.org/pusher/oauth2_proxy.svg?branch=master)](http://travis-ci.org/pusher/oauth2_proxy)
-[![Go Report Card](https://goreportcard.com/badge/github.com/pusher/oauth2_proxy)](https://goreportcard.com/report/github.com/pusher/oauth2_proxy)
-[![GoDoc](https://godoc.org/github.com/pusher/oauth2_proxy?status.svg)](https://godoc.org/github.com/pusher/oauth2_proxy)
+[![Build Status](https://secure.travis-ci.org/pusher/oauth2_proxy/v5.svg?branch=master)](http://travis-ci.org/pusher/oauth2_proxy/v5)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pusher/oauth2_proxy/v5)](https://goreportcard.com/report/github.com/pusher/oauth2_proxy/v5)
+[![GoDoc](https://godoc.org/github.com/pusher/oauth2_proxy/v5?status.svg)](https://godoc.org/github.com/pusher/oauth2_proxy/v5)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 A reverse proxy and static file server that provides authentication using Providers (Google, GitHub, and others)
@@ -18,11 +18,11 @@ A list of changes can be seen in the [CHANGELOG](CHANGELOG.md).
 
 1.  Choose how to deploy:
 
-    a. Download [Prebuilt Binary](https://github.com/pusher/oauth2_proxy/releases) (current release is `v5.0.0`)
+    a. Download [Prebuilt Binary](https://github.com/pusher/oauth2_proxy/v5/releases) (current release is `v5.0.0`)
 
-    b. Build with `$ go get github.com/pusher/oauth2_proxy` which will put the binary in `$GOROOT/bin`
+    b. Build with `$ go get github.com/pusher/oauth2_proxy/v5` which will put the binary in `$GOROOT/bin`
 
-    c. Using the prebuilt docker image [quay.io/pusher/oauth2_proxy](https://quay.io/pusher/oauth2_proxy) (AMD64, ARMv6 and ARM64 tags available)
+    c. Using the prebuilt docker image [quay.io/pusher/oauth2_proxy/v5](https://quay.io/pusher/oauth2_proxy/v5) (AMD64, ARMv6 and ARM64 tags available)
 
 Prebuilt binaries can be validated by extracting the file and verifying it against the `sha256sum.txt` checksum file provided for each release starting with version `v3.0.0`.
 
@@ -38,7 +38,7 @@ oauth2_proxy-4.0.0.linux-amd64: OK
 
 ## Security
 
-If you are running a version older than v5.0.0 we **strongly recommend you please update** to a current version. RE: [open redirect vulnverability](https://github.com/pusher/oauth2_proxy/security/advisories/GHSA-qqxw-m5fj-f7gv)
+If you are running a version older than v5.0.0 we **strongly recommend you please update** to a current version. RE: [open redirect vulnverability](https://github.com/pusher/oauth2_proxy/v5/security/advisories/GHSA-qqxw-m5fj-f7gv)
 
 ## Docs
 
